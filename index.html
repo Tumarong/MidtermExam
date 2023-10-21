@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+<br>
+<style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #0e0d0d;
+    text-align: left;
+    padding: 8px;
+  }
+</style>
+
+<h1 style="text-align: center;">School Enrollment App</h1>
+<center>
+<form action=" ">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="taskInput" name="fname" value=" "><br>
+    <label for="mname">Middle Name:</label><br>
+    <input type="text" id="taskInput" name="mname" value=" "><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="taskInput" name="lname" value=" "><br>
+    <label for="age">Age:</label><br>
+    <input type="text" id="taskInput" name="age" value=" "><br>
+    <label for="gender">Gender:</label><br>
+    <input type="text" id="taskInput" name="gender" value=" "><br>
+    <label for="birthday">Birthday:</label><br>
+    <input type="text" id="taskInput" name="birthday" value=" "><br>
+    <label for="course">Course:</label><br>
+    <input type="text" id="taskInput" name="course" value=" "><br>
+    <label for="syear">School Year:</label><br>
+    <input type="text" id="taskInput" name="syear" value=" "><br><br>
+    <button style= "height: 30px; width: 100px;" id="addTaskButton">Submit</button>
+  </form> 
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Enrollment Table</h2>
+            </div>
+        </div>
+              
+        <div class="row">
+            <div class="col-sm-6">
+                <table id="Enrollment Table" class="table td, th tr:nth-child">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Middle Name</th>
+                            <th>Last Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Birthday</th>
+                            <th>Course</th>
+                            <th>School Year</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+        
+</br>
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>
